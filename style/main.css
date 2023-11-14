@@ -1,0 +1,193 @@
+.cnontainer {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+}
+.secMale {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/RestDayHeavyweightT-ShirtGSCocoaBrown-PIGMENTDYEA4A9B-NB4T-0251_1920x.jpg?v=1696606392");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh;
+  transform: translateX(6rem);
+  cursor: pointer;
+}
+.divider {
+  width: 0.5rem;
+  background-color: black;
+  transform: translateX(10rem);
+}
+.divider span {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+}
+.secFemale {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/LegacyOversizedSweatshirtGSWashedStoneBrownB5A9W-NBY5-0946_1920x.jpg?v=1697199419");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh;
+  margin-left: 20rem;
+  transform: translateX(-3rem);
+  text-align: center;
+  cursor: pointer;
+}
+
+.secFemale:hover {
+  filter: blur(8px);
+  cursor: pointer;
+  transition: all 1000ms;
+}
+.secMale:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secTop {
+  background-image: url("https://cdn.shopify.com/s/files/1/0098/8822/products/EssentialPantBlackA2A7T-BBBB3_1920x.jpg?v=1660745227");
+  background-size: 535px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 80%;
+  border-right: solid black 2px;
+  cursor: pointer;
+}
+.secPants {
+  background-image: url("https://cdn.shopify.com/s/files/1/0098/8822/files/CrestHoodieBlack-A2A4G-BBBB-0290_384x.jpg?v=1686218135 ");
+  background-size: 560px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 80%;
+  border-right: solid black 2px;
+  cursor: pointer;
+}
+.secShoes {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/products/SportShortBlackA3A1Q-BBBB-0213.20_1920x.jpg?v=1667466331");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 100%;
+  cursor: pointer;
+}
+.secTop:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secPants:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secShoes:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secOne {
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://images.ctfassets.net/wl6q2in9o7k3/2ZEe632y1v7PYqgkSlfeEG/115aa28a4f3a2c763b6e487104c241ad/Headless_Desktop_-_M_INT.jpg?w=1920&q=100&fm=webp");
+  text-align: center;
+  padding-top: 12rem;
+}
+.maincont {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.items {
+  margin: 1rem;
+  height: 400px;
+  width: 350px;
+}
+.itemone {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/HeritageWashedHoodieGSDesertBeige-ACIDWASHSMALLBALLA4A7J-NB1V-1097_f2fc986c-5f6e-47d9-a3bc-493d6175897a_384x.jpg?v=1695912167");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.itemtwo {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/HeritageWashedHoodieGSOnyxGrey-ACIDWASHSMALLBALLA4A7J-GB8N-1430_384x.jpg?v=1695912166");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item3 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/HeritageWashedHoodieGSSmokeyGrey-ACIDWASHSMALLBALLA4A7J-GB8M-1372_f479ca03-5f5c-42d6-92be-674d8eec0182_384x.jpg?v=1695912166");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item4 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/RestDayHeavyweightHoodieGSCocoaBrown-PIGMENTDYEA4A7I-NB4T-0279_384x.jpg?v=1696606392");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item5 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/CrestHoodieBlack-A2A4G-BBBB-0290_daf6026d-2de1-4e01-8d79-ccbf985181fd_384x.jpg?v=1696249449");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item6 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/products/CrestHoodieM_Slim_CoreOliveA2A4G-EBF1.A_ZH_ZH_384x.jpg?v=1644335104");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item7 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/products/CrestHoodieNavyA1A1K13.A-EditTIFF_IS_82e58378-c595-4852-818f-7d5cfa675046_384x.jpg?v=1644335105");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item7 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/files/LegacyDropArmHoodie-GSBlack-A5A2V-BB2J-1415_a72c10c1-74dc-47bd-bca2-2551cb0ff95d_384x.jpg?v=1692885030");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.item8 {
+  background-image: url("https://cdn.shopify.com/s/files/1/1367/5207/products/CriticalReactSlimHoodieREP-M-A0021SilhouetteGreyA2A7E-GBRH-1604.206_384x.jpg?v=1667316046");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.name {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.color {
+  margin-left: 1rem;
+}
+
+.secTopFemale {
+  background-image: url("https://cdn.shopify.com/s/files/1/0098/8822/files/StrengthDepartmentGraphicJogger-GSBlack-B8A3W-BB2J-1014_97b8c8a0-2815-473d-9591-e14e73a65a20_1920x.jpg?v=1696606438");
+  background-size: 535px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 80%;
+  border-right: solid black 2px;
+  cursor: pointer;
+}
+.secPantsFemale {
+  background-image: url("https://cdn.shopify.com/s/files/1/0098/8822/files/HoltTexturedFleece-Black-B5A9B-BBBB-1213_f435f8df-8cc5-46b0-bd12-ea040db2957b_1920x.jpg?v=1699263812 ");
+  background-size: 560px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 80%;
+  border-right: solid black 2px;
+  cursor: pointer;
+}
+.secShoesFemale {
+  background-image: url("https://cdn.shopify.com/s/files/1/0098/8822/files/VitalSeamlessShortsBlackMarlBlackMarlB1A4J-BBF3-1380_1920x.jpg?v=1697798493");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 100%;
+  cursor: pointer;
+}
+.secTopFemale:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secPantsFemale:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
+.secShoesFemale:hover {
+  filter: blur(8px);
+  transition: all 1000ms;
+}
